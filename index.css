@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./rouxineimg/bgi-1.jpg); 
+   /* background-attachment: fixed; */
+   height: 105vh;
+   width: 100%;
+   background-size: 100% 100%;
+   
+}
+.header h1{
+    font:30px'PT Sans', sans-serif;
+    padding:40px 0px 0px 50px;
+    color: white;
+    font-weight: 550;
+}
+.header ul{
+    color: rgb(252,252,252);
+    margin: -30px 0px 0px 430px;
+    list-style-type:none;
+    letter-spacing: 1px;
+}
+.header li{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+float: left;
+margin-left:32px;
+font-size: 12px;
+font-weight: 500;
+cursor: pointer;
+}
+.header h2{
+    font-size: 30px;
+    color: white;
+    padding:90px 0px 0px 150px;
+    font-weight: 550;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+letter-spacing: 4px;
+}
+.header h3{
+    font-size: 140px;
+    padding: 50px 0px 0px 150px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 20px;
+    color: white;
+    font-weight: 800;
+}
+.header p{
+    color: rgb(250, 250, 250);
+    padding: 0px 0px 0px 160px;
+    font:18px'PT Sans', sans-serif;
+    width: 500px;
+    line-height: 25px;
+}
+.header button{
+    height: 9vh;
+    width:21vw;
+    background-color: rgb(86, 69, 255);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin: 50px 0px 0px 150px;
+}
+.header button:hover{
+    background-color: rgb(40, 18,255);
+    cursor: pointer;
+}
+.experts{
+    height: 142vh;
+    width: 100%;
+    background-color:white;
+}
+.experts h1{
+padding: 180PX 0PX 0PX 130PX;
+font-family: 'Josefin Slab';
+ background-color: white;
+  font-weight:lighter;
+    font-size:30px;
+    letter-spacing: 5px;
+    /* display: inline; */
+    
+}
+.experts pre{
+    margin: 8px 0px 0px 0px;
+    font-size: 50px;
+    font-weight: 550;
+ background-color: white; 
+    letter-spacing: 6px;
+}
+.experts p{
+    margin: 25px 0px 0px 5px;
+     background-color: white;   
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+font-style: italic;
+}
+.learn{
+    height: 45vh;
+    width: 25vw;
+    background-color: whitesmoke;
+    margin:-220px 0px 0px 500px ;
+    border-radius: 8px;
+    text-align: center;
+    /* display: inline; */
+}
+.learn i{
+    font-size: 35px;
+    margin: 35px 0px 0px 0px;
+}.learn  h3{
+    margin: 20px 0px 0px 0px;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    font-weight: 100;
+}.learn p{
+   margin-top: 20px;
+   font-family: 'Poppins', sans-serif;
+   color: black;
+   font-size:10px ;
+   word-spacing: 1px;
+   letter-spacing: 1px;
+   background-color: whitesmoke;
+}
+.learn pre{
+    font-size: 14px;
+    color: black;
+    margin:58px 0px 0px 75px ;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    width: 190px;
+   background-color: whitesmoke;
+
+}
+.learn:hover{
+background-color: #fff;
+    box-shadow: 0px 0px 7px 2px lightgrey;
+}
+.learn:hover i {
+    color: blue;
+}
+.learn:hover h3{
+    color: blue;
+}
+.learn pre:hover{
+    color: blue;
+    cursor: pointer;
+}
+.learn:hover pre{
+    background-color: #fff;
+}
+.learn:hover p{
+    background-color: #fff;
+}
+.vector{
+   float: left;
+   margin-left: 870px;
+   margin-top: -282px;
+}
+.fonts{
+ margin-left: 130px;
+ margin-top: -410px;
+}
+.layer{
+    margin-left:500px;
+    margin-top: -280px;
+}
+.grid{
+    margin-top: -280px;
+    margin-left: 870px;
+}
+.bgpic2{
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./rouxineimg/big-15.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin-top: 120px;
+}
+.bgpic2 h3{
+text-align: center;
+font-family: 'Nunito', sans-serif;
+color: #fff;
+padding: 130px 0px 0px 0px;
+font-size: 30px;
+font-weight: lighter;
+word-spacing: 7px;
+letter-spacing: 5px;
+}
+.bgpic2 h2{
+text-align: center;
+font-family: 'Nunito', sans-serif;
+color: #fff;
+font-size: 50px;
+/* font-weight: lighte; */
+padding-top: 15px;
+}
+.bgpic2 button{
+    height: 9vh;
+    width:21vw;
+    background-color: rgb(86, 69, 255);
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin: 50px 0px 0px 530px;
+}
+.bgpic2 button:hover{
+    background-color: rgb(40, 18,255);
+    cursor: pointer;
+}
+.work{
+    padding: 1px;
+}
+.work h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 120px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #565655;
+}
+.work ul{
+    /* float: left; */
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 90px 0px 0px 350px;
+list-style: none;
+}
+.work li{
+    float: left;
+    margin-left: 20px;
+    color:#565655;
+}
+.card{
+    height: 45vh;
+    width: 30.91vw;
+    background-image: url(./rouxineimg/img-37.jpg);
+   margin:80px 0px 0px 0px;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    float: left;
+    /* margin-left: px; */
+}
+.icon{
+    float: left;
+    margin: 125px 0px 0px 140px;
+}
+.icon i{
+    font-size: 35px;
+    background-color: transparent;
+    padding: 5px;
+    margin-left: 8px;
+    color: transparent;
+}
+.card-1{
+    margin-left: 40px;
+    background-image: url(../rouxine/rouxineimg/img-32.jpg);
+}
+.card-2{
+    background-image: url(./rouxineimg/img-33.jpg);
+}
+.card-3{
+    background-image: url(./rouxineimg/img-34.jpg);
+    margin-top: 30px;
+}
+.card-4{
+    background-image: url(./rouxineimg/img-35.jpg);
+    margin-top: 30px;
+
+}
+.card-5{
+    background-image: url(./rouxineimg/img-36.jpg);
+    margin-top: 30px;
+}
+.card:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./rouxineimg/img-37.jpg);
+}
+.card:hover i{
+    color: white;
+    background-color: rgb(86, 69, 255);
+}
+.card-1:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./rouxineimg/img-32.jpg);
+}
+.card-2:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./rouxineimg/img-33.jpg);
+}
+.card-3:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./rouxineimg/img-34.jpg);
+}
+.card-4:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./rouxineimg/img-35.jpg);
+}
+.card-5:hover{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./rouxineimg/img-36.jpg);
+}
+.story h1{
+   margin-top: 100vh;
+}
+.prg{
+  font:15px 'PT Sans',sans-serif;
+    margin: -73vh 0px 0px 140px;
+    color: #565655;
+word-spacing: 5px;
+line-height: 1.7;
+}
+.prg-1{
+    margin: 35px 0px 0px 140px;
+}
+.prg-2{
+    margin: -235px 0px 0px 690px; 
+}
+.brand ul{
+    list-style: none;
+    margin: 20px 0px 0px 690px;
+    color:blue;
+  font:15px 'PT Sans',sans-serif;
+  cursor: pointer;
+  line-height: 3;
+  font-size: 12px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  float: left;
+}
+.brand ol{
+    list-style: none;
+    margin: 20px 0px 0px 990px;
+    color:blue;
+  font:15px 'PT Sans',sans-serif;
+  cursor: pointer;
+  line-height: 3;
+  font-size: 12px;
+  letter-spacing: 2px;
+  word-spacing: 1px; 
+}
+
+.brand button{
+    height: 9vh;
+    width:21vw;
+    background-color: black;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin: 50px 0px 0px 140px;
+}
+.brand button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+}
+.culture{
+    height: 180vh;
+    width:100%;
+    margin-top: 300px;
+    background-image: url(./rouxineimg/big-01.jpg);
+    background-size: 100% 100%;
+}
+.workplace{
+ margin: -180px 0px 0px 80px;
+width: 80vw;
+height: 60vh;
+text-align: center;
+background-color: transparent;
+padding: 1px;
+}
+.workplace h1{
+    background-color: transparent;
+    color: #565655;
+   margin-top:-70px;
+     
+    
+}
+.workplace pre{
+    background-color: transparent;
+}.workplace p{
+    background-color: transparent;
+}
+.prg-4{
+    margin-top: -60px;
+  font:18px 'PT Sans',sans-serif;
+text-align: center;
+letter-spacing: 2px;
+word-spacing: 2px;
+line-height: 1.9;
+}
+.team{
+    /* padding: 1px; */
+}
+.team h1{
+    color: #565655;
+}
+.mainteam{
+    margin:-450px 0px 0px 90px; 
+}
+.jason{
+    height: 85vh;
+    width: 25vw;
+    /* background-color: #565655; */
+    float: left;
+    margin-left: 40px;  
+    padding: 1px;
+    background-image: url(./rouxineimg/team-02.jpg);
+    background-size: 100% 100%;
+}
+.jason div{
+height: 20vh;
+width: 100%;
+background-color:transparent;
+margin-top: 300px;
+}
+.jason h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 30px;
+    margin-left: 130px;
+    color: transparent;
+    /* text-align: end;   */
+    font-size: larger;
+}
+.jason p{
+    /* text-align: end; */
+    margin-left: 65px;
+    font: 100;
+    font-size: 17px;
+}
+.jason:hover h1{
+    color: white;  
+}
+.jason:hover div{
+    background-color: #584FDD;  
+}
+.jessica{
+    background-image: url(./rouxineimg/team-01.jpg);
+}
+.jessica h1{
+    margin-left: 150px;
+}
+.jessica p{
+    margin-left: 46px;
+}
+.james{
+    background-image: url(./rouxineimg/team-03.jpg);
+}
+.james h1{
+    margin-left: 185px;
+}
+.james p{
+    margin-left: 12px;
+}
+.prg-5{
+    /* text-align: center; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 600px 0px 0px 190px;
+    font-weight: 600;
+    color: #565655;
+
+}
+.test{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)), url(./rouxineimg/visual-small-11.jpg);
+    background-size: 100% 100%;
+    height: 55vh;
+    width: 100%;
+    background-attachment: fixed;
+    margin-top: 120px;
+}
+.icon-1{
+    height:55vh ;
+    width: 24.68vw;
+    background-color: transparent;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    float: left ;
+
+}
+.icon-1 i{
+    font-size: 50px;
+    margin-top: 120px;
+    color:#565655;
+}
+.test h1{
+font-size: 40px;
+color:#565655;
+margin-top: 10px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.test p{
+    font-size: 20px;
+    color:#565655;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: bold;
+    font-weight: 650;
+}.icon-1:hover{
+    background-color: rgb(86, 69, 255);
+    transition-duration: 1s;
+}
+.icon-1:hover h1{
+    color: white;
+}
+.icon-1:hover p{
+    color: white;
+}
+.icon-1:hover i{
+    color: white;
+}
+.client{
+    margin-top: 30px;;
+}
+.imge{
+    float: left;
+    margin-top: 60px;
+}
+.ppl-1{
+    border: 1px solid red;
+    height: 13vh;
+    width: 6vw;
+    border-radius: 100px;
+    /* float: left; */
+    margin: 0px 0px 0px 220px;
+    filter: grayscale(); 
+}
+.ppl{
+    height: 20vh;
+    width: 9vw;
+    border-radius: 100px;
+    margin: 0px 0px 0px 200px;
+    border: 1px solid red;
+}
+.ppl-2{
+    margin: 50px 0px 0px 200px;
+}
+.imge h1{
+    color: #584FDD;
+    margin: -150px 0px 0px 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight:320;
+}
+.imge h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #565655;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 195px;
+}
+.imge p{
+    color: #565655;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 70px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    padding-left: 200px;
+}
+.scndlast{
+   height:40vh ;
+   width:100%;
+   /* background-color: white; */
+   position:relative;
+   top:500px;
+}
+.camera{
+position: absolute;
+left:120px;
+top:100px;
+}
+.camera2{
+
+margin-left: 200px;
+}
+.cam3{
+    margin-left: 400px;
+}
+.cam4{
+    margin-left: 600px;
+}
+.cam5{
+    margin-left: 800px;
+}
+.cam6{
+    margin-left: 1000px;
+}
+.footer{
+    height: 53vh;
+    width: 100%;
+    background-color: #1e1e1d;
+    margin-top: 550px;
+}
+.footer h1{
+    font:30px'PT Sans', sans-serif;
+    padding:120px 0px 0px 120px;
+    color:#565655;
+    font-weight: 550;
+}
+.footer ul{
+   margin-top: -35px;
+    list-style: none;
+    margin-left: 510px;
+}
+.footer li{
+    float: left;
+    color: #565655;
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.footer ol{
+    list-style: none;
+    margin-left: 900px;
+    margin-top: -50px;
+}
+.fb{
+    font-size: 23px;
+}
+.footer p{
+    color: #565655;
+    text-align: center;
+    margin-top: 165px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: bold;
+}
+.footer li:hover{
+    color: white;
+    cursor: pointer;
+}
+.faceb:hover{
+    color: #584FDD;
+}
+.twit:hover{
+    color:skyblue
+}
+.plus:hover{
+    color: maroon;
+}
+.pin:hover{
+    color: rgb(137, 61, 61);
+}
